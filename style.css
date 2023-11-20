@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  cursor: none;
+  outline: none;
+}
+
+html {
+  color-scheme: light dark;
+}
+:root {
+  --body: #fff;
+  --primary: #4C9227;
+  --text: #000;
+}
+body {
+  background: var(--body);
+}
+nav{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 5%;
+}
+nav .logo{
+   display: flex;
+   align-items: center;
+}
+nav .logo img{
+   width: 50px;
+}
+nav .logo h3{
+   font-family: 'Lobster Two', sans-serif;
+}
+nav .nav-click{
+   position: relative;
+   width: 30px;
+   height: 2px;
+   background-color: #000;
+}
+nav .nav-click:before{
+   content: "";
+   position: absolute;
+   top: 7px;
+   right: 0;
+   width: 20px;
+   height: 2px;
+   background-color: #000;
+}
+nav .nav-click:after{
+   content: "";
+   position: absolute;
+   bottom: 7px;
+   width: 30px;
+   height: 2px;
+   background-color: #000;
+}
+
+/* nav{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   padding: 12px 5%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+nav .logo{
+   display: flex;
+   align-items: center;
+}
+nav .logo img{
+   width: 50px;
+}
+nav .logo h3{
+   font-family: 'Lobster Two', sans-serif;
+}
+nav .open-nav-item {
+   position: relative;
+   width: 30px;
+   height: 2px;
+   background-color: var(--text);
+}
+nav .open-nav-item:before{
+   position: absolute;
+   top: 7px;
+   right: 0;
+   content: "";
+   width: 20px;
+   height: 2px;
+   background-color: var(--text);
+}
+nav .open-nav-item:after{
+   position: absolute;
+   bottom: 7px;
+   content: "";
+   width: 30px;
+   height: 2px;
+   background-color: var(--text);
+} */
